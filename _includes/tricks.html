@@ -1,5 +1,5 @@
 <ul class="trick-list">
-  {% for trick in site.trick %}
+  {% for trick in site.trick reversed %}
     <li>
       <h2><a href="{{ trick.url }}">{{ trick.title }}</a></h2>
     </li>
