@@ -1,10 +1,6 @@
 - name: Home
   link: /
-- name: "1"
-  link: /trick/trick1.html
-- name: "2"
-  link: /trick/trick2.html
-- name: "3"
-  link: /trick/trick3.html
+- name: Tricks
+  link: /tricks.html
 - name: Wir
   link: /wir.html

@@ -1,0 +1,8 @@
+<ul class="trick-list">
+  {% for trick in site.trick %}
+    <li>
+      <h2><a href="{{ trick.url }}">{{ trick.title }}</a></h2>
+    </li>
+    {{ trick.content }}
+  {% endfor %}
+</ul>

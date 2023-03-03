@@ -38,6 +38,12 @@ h1 {
   height: 60px;
 }
 
+/* Trick feed */
+.trick-list {
+  text-align: left;
+  list-style-type: none;
+}
+
 /* Navigation */
 
 .nav-list {

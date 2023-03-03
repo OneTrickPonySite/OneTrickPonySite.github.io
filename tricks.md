@@ -1,7 +1,5 @@
 ---
-title: Home
+title: Tricks
 ---
-
-# One Trick Pony
 
 {% include tricks.html %}
