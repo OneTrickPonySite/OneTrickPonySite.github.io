@@ -5,12 +5,12 @@
 }
 
 html, body {
-  font-family: 'Mulish', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
-  line-height: 1.75;
-  font-size: 1.25em;
+  line-height: 1.6;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -25,8 +25,12 @@ footer {
   margin-top: auto;
 }
 
-h1 {
-  font-family: 'IBM Plex Mono', monospace;
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: 2px dashed var(--dark);
 }
 
 .header-images {

@@ -3,6 +3,9 @@
     <li>
       <h2><a href="{{ trick.url }}">{{ trick.title }}</a></h2>
     </li>
-    {{ trick.content }}
+    <!-- All images should have the exact same ration 7:3 -->
+    <img class="trick-img" src="{{ trick.image_url }}">
+    <p>{{ trick.with }}</p>
+    <br>
   {% endfor %}
 </ul>
