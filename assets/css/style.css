@@ -1,0 +1,59 @@
+:root {
+  --red: #bb262c;
+  --visited: #822225;
+  --dark: #000;
+}
+
+html, body {
+  font-family: 'Mulish', sans-serif;
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.header-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-images img {
+  height: 60px;
+}
+
+.content {
+  text-align: center;
+}
+
+/* Navigation */
+
+.nav-list {
+  border: 2px dashed var(--dark);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  position: relative;
+}
+
+
+a:link { color: var(--red); }
+a:visited { color: var(--visited); }
+

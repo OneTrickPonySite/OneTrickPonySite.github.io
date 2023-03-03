@@ -1,0 +1,16 @@
+collections:  
+  trick:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "trick"
+    values:
+      layout: "trick"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+plugins:
+  - jekyll-sitemap
