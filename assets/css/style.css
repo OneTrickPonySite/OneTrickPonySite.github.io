@@ -48,6 +48,10 @@ hr {
   list-style-type: none;
 }
 
+.trick-heading {
+  padding: 32px 16px;
+}
+
 /* Navigation */
 
 .nav-list {
