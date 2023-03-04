@@ -9,8 +9,8 @@ html, body {
   max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
-  line-height: 1.6;
-  font-size: 1.2em;
+  line-height: 1.75;
+  font-size: 1.15em;
   text-align: left;
 }
 
@@ -21,7 +21,10 @@ body {
   flex-direction: column;
 }
 
-footer { margin-top: auto; }
+footer {
+  margin-top: auto;
+  text-align: center;
+}
 hr { border: 2px dashed var(--dark); }
 
 img { max-width: 100%; }

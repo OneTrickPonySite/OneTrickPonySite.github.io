@@ -5,18 +5,19 @@
       <p id="with" >
         {% for person in trick.with -%}
           {%- if forloop.length > 0 -%}
-            {{ person }}{% unless forloop.last %} \ {% endunless -%}
+            <span style="display: inline-block;">
+              {{ person }}{% unless forloop.last %} \&nbsp;{% endunless -%}
+            </span>
           {%- endif -%}
         {% endfor %}
       </p>
       <p>
-        Wo: {{ trick.where }}<br>
-        Eröffnung: {{ trick.opening }}
+        Wo: <span style="display: inline-block;">{{ trick.where }}</span>
+        <br>
+        Eröffnung: <span style="display: inline-block;">{{ trick.opening }}</span>
       </p>
       <a href="{{ trick.url }}">>>> Mehr</a>
       <br>
-      <!-- All images should have the exact same ration 7:3 -->
-      <!-- <img class="trick-img" src="{{ trick.image_url }}"> -->
     </li>
   {% endfor %}
 </ul>
