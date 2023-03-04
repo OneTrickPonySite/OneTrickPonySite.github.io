@@ -4,11 +4,9 @@
       <h2 class="trick-heading" style="background-color: {{ trick.vibe }}">{{ trick.title }}</h2>
       <p id="with" >
         {% for person in trick.with -%}
-          {%- if forloop.length > 0 -%}
-            <span style="display: inline-block;">
-              {{ person }}{% unless forloop.last %} \&nbsp;{% endunless -%}
-            </span>
-          {%- endif -%}
+          <span style="display: inline-block;">
+            {% unless forloop.first %}\ {% endunless -%}{{ person }}
+          </span>
         {% endfor %}
       </p>
       <p>
