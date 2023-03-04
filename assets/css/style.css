@@ -11,7 +11,7 @@ html, body {
   margin: auto;
   line-height: 1.6;
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -21,17 +21,11 @@ body {
   flex-direction: column;
 }
 
-footer {
-  margin-top: auto;
-}
+footer { margin-top: auto; }
+hr { border: 2px dashed var(--dark); }
 
-img {
-  max-width: 100%;
-}
+img { max-width: 100%; }
 
-hr {
-  border: 2px dashed var(--dark);
-}
 
 .header-images {
   display: flex;
@@ -44,7 +38,7 @@ hr {
 
 /* Trick feed */
 .trick-list {
-  text-align: left;
+  padding: 1em;
   list-style-type: none;
 }
 
@@ -61,7 +55,7 @@ hr {
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .nav-item {
