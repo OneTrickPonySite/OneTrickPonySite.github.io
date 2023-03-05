@@ -51,9 +51,8 @@ img { max-width: 100%; }
 }
 
 .trick-heading {
-  font-size: 6em;
-  line-height: 96px;
-  height: 97px;
+  font-size: 2em;
+  padding: 24px 16px;
 }
 
 /* Navigation */

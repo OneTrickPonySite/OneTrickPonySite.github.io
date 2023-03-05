@@ -1,7 +1,9 @@
 <ul class="trick-list">
   {% for trick in site.trick reversed %}
     <li>
-      <h2 class="trick-heading" style="background-color: {{ trick.vibe }}">{{ trick.title }}</h2>
+      <h2 class="trick-heading" style="background-color: {{ trick.vibe }}">
+        {{ trick.title }}
+      </h2>
       <p id="with" >
         {% for person in trick.with -%}
           <span style="display: inline-block;">
